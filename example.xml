@@ -1,0 +1,17 @@
+<person>
+    <id>1</id>
+    <name>Akella</name>
+    <age>25</age>
+    <isStudent>true</isStudent>
+    <email>zhu@jlj.com</email>
+    <couses>
+        <item>Python</item>
+        <item>QA Engineer</item>
+        <item>API Testing</item>
+    </couses>
+    <address>
+        <city>Inno</city>
+        <region>Tat</region>
+        <zip>640500</zip>
+    </address>
+</person>

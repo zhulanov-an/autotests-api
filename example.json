@@ -1,0 +1,15 @@
+{
+  "name": "Akella",
+  "age": 25,
+  "is_student": true,
+  "courses": [
+    "Python",
+    "QA Engineer",
+    "API Testing"
+  ],
+  "address": {
+    "city": "Inno",
+    "region": "Tat",
+    "zip": 640500
+  }
+}
