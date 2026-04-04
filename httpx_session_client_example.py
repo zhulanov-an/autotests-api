@@ -9,4 +9,3 @@ with httpx.Client(headers={"Authorization": "Bearer my_secret_token"}) as client
 
 print(response1.json())  # Данные первой задачи
 print(response2.json())  # Данные второй задачи
-

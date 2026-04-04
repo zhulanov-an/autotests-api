@@ -6,4 +6,3 @@ with open("httpx_get_example.py", "rb") as f:
 
 print(response.status_code)
 print(response.json())
-
