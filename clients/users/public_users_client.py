@@ -13,7 +13,7 @@ class PublicUsersClient(APIClient):
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод выполняет создание пользователя.
-        :param request: Словарь с email, password, lastName, firstName, middleName
+        :param request: Pydantic-модель с email, password, last_name, first_name, middle_name
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/users", json=request.model_dump(by_alias=True))

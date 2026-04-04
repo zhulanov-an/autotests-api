@@ -31,7 +31,7 @@ class PrivateUsersClient(APIClient):
         Метод обновления пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
-        :param request: Словарь с email, lastName, firstName, middleName.
+        :param request: Pydantic-модель с email, last_name, first_name, middle_name.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(f"/api/v1/users/{user_id}", json=request)

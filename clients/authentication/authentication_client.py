@@ -14,7 +14,7 @@ class AuthenticationClient(APIClient):
         """
         Метод выполняет аутентификацию пользователя.
 
-        :param request: Словарь с email и password.
+        :param request: Pydantic-модель с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/authentication/login", json=request.model_dump(by_alias=True))
@@ -23,7 +23,7 @@ class AuthenticationClient(APIClient):
         """
         Метод обновляет токен авторизации.
 
-        :param request: Словарь с refreshToken.
+        :param request: Pydantic-модель с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/authentication/refresh", json=request.model_dump(by_alias=True))

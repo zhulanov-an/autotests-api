@@ -23,7 +23,7 @@ class FilesClient(APIClient):
         """
         Метод создания файла.
 
-        :param request: Словарь с filename, directory, upload_file.
+        :param request: Pydantic-модель с filename, directory, upload_file.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
 
