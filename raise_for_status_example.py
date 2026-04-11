@@ -1,5 +1,3 @@
-from time import sleep
-
 import httpx
 
 try:
@@ -7,4 +5,3 @@ try:
     response.raise_for_status()
 except httpx.HTTPStatusError as e:
     print(f"Ошибка запроса: {e}")
-

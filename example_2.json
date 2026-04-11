@@ -1,15 +1,15 @@
 {
-    "name": "Вася",
-    "age": 15,
-    "is_student": true,
-    "courses": [
-        "Python",
-        "QA Engineer",
-        "API Testing"
-    ],
-    "address": {
-        "city": "Inno",
-        "region": "Tat",
-        "zip": 640500
-    }
+  "name": "Вася",
+  "age": 15,
+  "is_student": true,
+  "courses": [
+    "Python",
+    "QA Engineer",
+    "API Testing"
+  ],
+  "address": {
+    "city": "Inno",
+    "region": "Tat",
+    "zip": 640500
+  }
 }
