@@ -1,5 +1,5 @@
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, CourseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema
+    GetCoursesResponseSchema, CreateCourseResponseSchema, CreateCourseRequestSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -67,3 +67,29 @@ def assert_get_courses_response(
 
     for index, create_course_response in enumerate(create_course_responses):
         assert_course(get_courses_response.courses[index], create_course_response.course)
+
+
+def assert_create_course_response(
+        create_course_schema_response: CourseSchema,
+        create_course_request: CreateCourseRequestSchema
+):
+    """
+    Проверяет, что модель в ответе на создание курса соответствует модели запроса на его создание.
+
+    :param create_course_schema_response: Модель курса в ответе API создания курса.
+    :param create_course_request: Запрос API на создание курса.
+    :raises AssertionError: Если данные моделей запроса и ответа на создание курса не совпадают.
+    """
+    assert_equal(create_course_schema_response.title, create_course_request.title, "title")
+    assert_equal(create_course_schema_response.max_score, create_course_request.max_score, "max_score")
+    assert_equal(create_course_schema_response.min_score, create_course_request.min_score, "min_score")
+    assert_equal(create_course_schema_response.description, create_course_request.description, "description")
+    assert_equal(create_course_schema_response.estimated_time,
+                 create_course_request.estimated_time,
+                 "estimated_time")
+    assert_equal(create_course_schema_response.preview_file.id,
+                 create_course_request.preview_file_id,
+                 "file_id")
+    assert_equal(create_course_schema_response.created_by_user.id,
+                 create_course_request.created_by_user_id,
+                 "user_id")
