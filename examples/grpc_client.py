@@ -1,7 +1,6 @@
 import grpc
 
-import user_service_pb2
-import user_service_pb2_grpc
+from examples import user_service_pb2_grpc, user_service_pb2
 
 # Устанавливаем соединение с сервером
 channel = grpc.insecure_channel('localhost:50051')
