@@ -1,5 +1,5 @@
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, ExerciseSchema, GetExerciseResponseSchema, \
-    CreateExerciseResponseSchema
+    CreateExerciseResponseSchema, UpdateExerciseRequestSchema
 from tools.assertions.base import assert_equal
 
 
@@ -55,3 +55,20 @@ def assert_get_exercise_response(get_exercise_schema_response: GetExerciseRespon
     """
     assert_exercise(actual_exercise_schema=get_exercise_schema_response.exercise,
                     expected_exercise_schema=create_exercise_response.exercise)
+
+
+def assert_update_exercise_response(update_exercise_schema_response: ExerciseSchema,
+                                    update_exercise_request: UpdateExerciseRequestSchema):
+    """
+    Проверяет ответ обновления упражнения с запросом обновления упражнения
+    :param update_exercise_schema_response: Ответ обновления упражнения.
+    :param update_exercise_request: Запрос обновления упражнения.
+    :raises AssertionError: Если хотя бы одно поле обновления упражнения в ответе и запросе не совпадает.
+    """
+    assert_equal(update_exercise_schema_response.title, update_exercise_request.title, "title")
+    assert_equal(update_exercise_schema_response.max_score, update_exercise_request.max_score, "max_score")
+    assert_equal(update_exercise_schema_response.min_score, update_exercise_request.min_score, "min_score")
+    assert_equal(update_exercise_schema_response.order_index, update_exercise_request.order_index, "order_index")
+    assert_equal(update_exercise_schema_response.description, update_exercise_request.description, "description")
+    assert_equal(update_exercise_schema_response.estimated_time,
+                 update_exercise_request.estimated_time, "estimated_time")
