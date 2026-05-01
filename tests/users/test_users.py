@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+import allure
 import pytest
 
 from clients.users.private_users_client import PrivateUsersClient
@@ -15,8 +16,8 @@ from tools.fakers import fake
 @pytest.mark.users
 @pytest.mark.regression
 class TestUsers:
-
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
+    @allure.title("Create user")
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):
         request = CreateUserRequestSchema(email=fake.email(domain=domain))
         response = public_users_client.create_user_api(request)
@@ -26,6 +27,7 @@ class TestUsers:
         assert_create_user_response(request, response_data)
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Get user me")
     def test_get_user_me(self, function_user: UserFixture, private_users_client: PrivateUsersClient):
         get_me_response = private_users_client.get_user_me_api()
 
