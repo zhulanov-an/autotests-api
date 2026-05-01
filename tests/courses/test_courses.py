@@ -25,11 +25,14 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Get courses")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -48,6 +51,7 @@ class TestCourses:
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.title("Update course")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
         response = courses_client.update_course_api(function_course.response.course.id, request)
@@ -61,6 +65,7 @@ class TestCourses:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create course")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(self, courses_client: CoursesClient, function_user: UserFixture, function_file: FileFixture):
         create_course_request = CreateCourseRequestSchema(preview_file_id=function_file.response.file.id,
                                                           created_by_user_id=function_user.response.user.id)
