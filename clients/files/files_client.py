@@ -26,13 +26,11 @@ class FilesClient(APIClient):
         :param request: Pydantic-модель с filename, directory, upload_file.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-
-        with open(request.upload_file, 'rb') as upload_file:
-            return self.post(
-                "/api/v1/files",
-                data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-                files={"upload_file": upload_file}
-            )
+        return self.post(
+            "/api/v1/files",
+            data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+            files={"upload_file": request.upload_file.read_bytes()}
+        )
 
     def delete_file_api(self, file_id: str) -> Response:
         """
