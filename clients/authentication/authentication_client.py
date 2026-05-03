@@ -3,6 +3,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, LoginResponseSchema
 from clients.public_http_builder import get_public_http_client
+from tools.routes import APIRoutes
 
 
 class AuthenticationClient(APIClient):
@@ -17,7 +18,7 @@ class AuthenticationClient(APIClient):
         :param request: Pydantic-модель с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/login", json=request.model_dump(by_alias=True))
+        return self.post(f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True))
 
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
@@ -26,7 +27,7 @@ class AuthenticationClient(APIClient):
         :param request: Pydantic-модель с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/authentication/refresh", json=request.model_dump(by_alias=True))
+        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh", json=request.model_dump(by_alias=True))
 
     # Добавили метод login
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:

@@ -3,6 +3,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.users.users_schema import UpdateUserRequestSchema, GetUserResponseSchema
+from tools.routes import APIRoutes
 
 
 class PrivateUsersClient(APIClient):
@@ -15,7 +16,7 @@ class PrivateUsersClient(APIClient):
         Метод получения текущего пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(url='/api/v1/users/me')
+        return self.get(url=f'{APIRoutes.USERS}/me')
 
     def get_user_api(self, user_id: str) -> Response:
         """
@@ -24,7 +25,7 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/users/{user_id}")
+        return self.get(f"{APIRoutes.USERS}/{user_id}")
 
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
@@ -34,7 +35,7 @@ class PrivateUsersClient(APIClient):
         :param request: Pydantic-модель с email, last_name, first_name, middle_name.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/users/{user_id}", json=request)
+        return self.patch(f"{APIRoutes.USERS}/{user_id}", json=request)
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -43,7 +44,7 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/users/{user_id}")
+        return self.delete(f"{APIRoutes.USERS}/{user_id}")
 
         # Добавили новый метод
 
