@@ -27,4 +27,4 @@ class Settings(BaseSettings):
     http_client: HTTPClientConfig
 
 
-print(Settings())
+settings = Settings()
