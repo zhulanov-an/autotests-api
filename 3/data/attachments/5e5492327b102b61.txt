@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c2ded195-1c70-4903-a4e4-8671513423cc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMzLjUwMjM4MyIsInVzZXJfaWQiOiIxODQ4YTk5YS0wOTQxLTRlM2UtYTliZC1hNzYyZTRkMjMxNGYifQ.Bih19VxEli4sXox-aKw5TEde7sDdrQ-kFKgdispbkuA' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late between address police yeah too indeed.","maxScore":83,"minScore":24,"orderIndex":89,"description":"Same life wall world. Wind second style camera.\nCompany win once eye adult receive contain. Major by executive college you.","estimatedTime":"1 weeks"}'

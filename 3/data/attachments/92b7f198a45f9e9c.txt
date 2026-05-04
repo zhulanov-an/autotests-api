@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMyLjkxMzU2MSIsInVzZXJfaWQiOiI1NDhiOTU4MC1jOTAxLTQxZjAtYjFhYy0yOTM2N2YzOGYwNjAifQ.sxa8mV2bxmUzlnu8vy66atBOAN898g3hx1yQiXlNL3s' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband middle social place.","courseId":"d82f5227-485e-4e4c-a64a-625db95bd3fc","maxScore":86,"minScore":30,"orderIndex":70,"description":"Those really owner fund or. Successful mean dinner husband air. Suddenly smile clear wind base identify scientist.","estimatedTime":"6 weeks"}'

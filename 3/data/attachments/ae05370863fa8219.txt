@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMzLjUwMjM4MyIsInVzZXJfaWQiOiIxODQ4YTk5YS0wOTQxLTRlM2UtYTliZC1hNzYyZTRkMjMxNGYifQ.Bih19VxEli4sXox-aKw5TEde7sDdrQ-kFKgdispbkuA' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health letter someone structure agent side employee.","maxScore":63,"minScore":2,"description":"Professional control able bring small author. Parent such employee order force more.","estimatedTime":"2 weeks","previewFileId":"ebd02e33-9bb4-4d53-80ca-fea8e05ca285","createdByUserId":"1848a99a-0941-4e3e-a9bd-a762e4d2314f"}'

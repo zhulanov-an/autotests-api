@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMxLjEwNDQ4NiIsInVzZXJfaWQiOiI5ZjY3YmJkOC00YzU2LTRiYzUtOTAxYS01ZmU4YWQyNjNlNjgifQ.uwSu8X2yPI0j08t_bXQurwX865fA7NovHCPLHWd7xEE' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience laugh stop popular would same anything.","maxScore":82,"minScore":20,"description":"Speak now issue opportunity plant describe. As civil law evening catch learn above. Offer wife rather toward success reality.","estimatedTime":"6 weeks","previewFileId":"1ecd4738-e416-4a51-99d9-e831e54691b0","createdByUserId":"9f67bbd8-4c56-4bc5-901a-5fe8ad263e68"}'

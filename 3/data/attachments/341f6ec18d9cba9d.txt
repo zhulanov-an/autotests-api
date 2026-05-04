@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMyLjkxMzU2MSIsInVzZXJfaWQiOiI1NDhiOTU4MC1jOTAxLTQxZjAtYjFhYy0yOTM2N2YzOGYwNjAifQ.sxa8mV2bxmUzlnu8vy66atBOAN898g3hx1yQiXlNL3s' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly him describe behind.","maxScore":58,"minScore":12,"description":"Mention know often necessary return.\nCurrent reveal star rather worry camera. Knowledge inside soon girl dark yard nothing.\nThe check single yes our feeling. Country myself surface never.","estimatedTime":"5 weeks","previewFileId":"72a16a78-7ffe-4cb8-a1a6-9703cc5e133a","createdByUserId":"548b9580-c901-41f0-b1ac-29367f38f060"}'

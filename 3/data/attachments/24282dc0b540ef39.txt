@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMzLjUwMjM4MyIsInVzZXJfaWQiOiIxODQ4YTk5YS0wOTQxLTRlM2UtYTliZC1hNzYyZTRkMjMxNGYifQ.Bih19VxEli4sXox-aKw5TEde7sDdrQ-kFKgdispbkuA' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready avoid audience call.","courseId":"0b254c5c-c95f-4e0e-a3a7-c466352d5b11","maxScore":51,"minScore":11,"orderIndex":80,"description":"Nothing share early spring want view fund. Actually guess everybody contain purpose who usually dog. Become education western as.","estimatedTime":"7 weeks"}'

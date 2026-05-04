@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjM1LjM1MTUyOCIsInVzZXJfaWQiOiIzYmNiNDRhOS0yMzBiLTQzMTAtYTNkNi04MTc2MzUyZTcxZGMifQ.lPCsqQPgzduRLrEbCfi-Stdd7H_JxkVNXx_FR1RFV5w' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why size assume.","maxScore":62,"minScore":22,"description":"Consider sing team throughout close too professor. Difference dark exist born side I call interview. Rule their free ball Republican law worry professor.","estimatedTime":"8 weeks","previewFileId":"1bf9dfa3-160a-416f-a9a8-a202b045d405","createdByUserId":"3bcb44a9-230b-4310-a3d6-8176352e71dc"}'

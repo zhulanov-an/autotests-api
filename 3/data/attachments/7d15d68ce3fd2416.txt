@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjMyLjMzMDI0MCIsInVzZXJfaWQiOiJlZGYwN2FjMC0xZWRmLTRmMWYtOGU3Yy1mZTk5ZDAzN2NiZGMifQ.Qtd8Cta-iapKEKdOBfabZaMnLuNA9a-7esG-lvyagxk' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth ten us citizen.","maxScore":82,"minScore":22,"description":"Law mind walk very fish what. Answer support gas garden fear board either class.\nCourt growth spend hear. Growth trade behind because enter beyond hold upon.","estimatedTime":"9 weeks","previewFileId":"1d2213a8-dd4d-4977-815b-1d90e2babab8","createdByUserId":"edf07ac0-1edf-4f1f-8e7c-fe99d037cbdc"}'

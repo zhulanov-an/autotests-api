@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjM1OjM0LjcxNjk3NCIsInVzZXJfaWQiOiIzZjRkMjI0OS05M2NmLTRiOTMtOWYwZS1lNWNmYjBmZDU0YzAifQ.a2lD9lA_I7x43RTPPuU8UYAbQXzCbur80oISE7Q6gzQ' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply response gun together shake executive.","maxScore":98,"minScore":30,"description":"Amount economic create clearly improve administration medical. Party space perhaps data bit. Within what reason decision add chance other participant.","estimatedTime":"8 weeks","previewFileId":"278b8e8b-bc3e-4480-ad46-390e724fe606","createdByUserId":"3f4d2249-93cf-4b93-9f0e-e5cfb0fd54c0"}'
