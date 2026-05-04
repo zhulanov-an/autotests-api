@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjQ5LjMxMjY2NCIsInVzZXJfaWQiOiJjODFiOGYzNS0xNmY3LTRkMDUtOWVlZi1hYjUxYTJkMWE0MTMifQ.SLkaQIU6No7QCwYkCsEILCANOEUCIuL5QXY16B_jovc' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child night scientist mouth level offer second.","maxScore":91,"minScore":10,"description":"Tonight Democrat boy land reflect consumer. With possible issue still. Bad read professional hospital eye. Drive college candidate country also security.","estimatedTime":"3 weeks","previewFileId":"b5752f21-8d5e-4a95-b8cb-89eed1e3e23f","createdByUserId":"c81b8f35-16f7-4d05-9eef-ab51a2d1a413"}'

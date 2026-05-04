@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a6d726e4-0fc7-4cb0-9bf4-495490f16767' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjQ3LjY4Mjg1MyIsInVzZXJfaWQiOiIyMmYzODNkMi03ZTM2LTQyMjEtYTY2OC1jMDEyODY1ZDExMmYifQ.jM3rJ8ZJJwa0kUHH41tUhFVv-nJWmZXDoq3H30yaanc' \
+  -H 'content-length: 239' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common only show rule.","maxScore":79,"minScore":18,"description":"High know artist sit. Program lead nothing discussion employee weight.\nData voice property like some. Both show poor popular need TV.","estimatedTime":"8 weeks"}'

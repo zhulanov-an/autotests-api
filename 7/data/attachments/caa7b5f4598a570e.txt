@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjQ4LjY3MTM3NyIsInVzZXJfaWQiOiI4NGMxM2YxOC0zMzE4LTRjZWMtOWZkMi1iNWViNzU2MWE4ZGMifQ.PpUQ_03z4Cm-kZM2HVgiRtllt1c2waeldYeplgXMdu8' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road sign hit main recently age usually.","maxScore":95,"minScore":23,"description":"Anyone small money loss loss then fish. High performance build friend interesting source.\nScientist listen safe onto field growth control service. Often must size.","estimatedTime":"7 weeks","previewFileId":"2d308779-025f-4c6a-a0b4-54ce8151b974","createdByUserId":"84c13f18-3318-4cec-9fd2-b5eb7561a8dc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjUxLjkwNzYxOCIsInVzZXJfaWQiOiJlMjc5YmEwYS1jZGMzLTRlMWMtYjkyMy03ZmQ0N2JmZjdkMzIifQ.eGRJZXY39X5ADAHMjKahfRx5ECXkLMIep6TwS_XaQGI' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hot son ready go no sound appear.","courseId":"7ce63351-5d6e-4c28-9e1e-1ed4fdfd331c","maxScore":77,"minScore":9,"orderIndex":43,"description":"Executive thus every also responsibility actually may too. Similar most low behavior sound become.\nGo at light daughter.","estimatedTime":"4 weeks"}'

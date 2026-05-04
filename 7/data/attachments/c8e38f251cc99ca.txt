@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjUxLjkwNzYxOCIsInVzZXJfaWQiOiJlMjc5YmEwYS1jZGMzLTRlMWMtYjkyMy03ZmQ0N2JmZjdkMzIifQ.eGRJZXY39X5ADAHMjKahfRx5ECXkLMIep6TwS_XaQGI' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy when until expect often carry.","maxScore":59,"minScore":10,"description":"Begin toward simply. Stay seem nearly interesting really analysis. Leader war final worry school style.\nYour agreement turn cause. Line plan mention there.\nMiss ball treatment relationship.","estimatedTime":"1 weeks","previewFileId":"5d9112e7-5d04-4ae3-a9a7-b72c8660d562","createdByUserId":"e279ba0a-cdc3-4e1c-b923-7fd47bff7d32"}'

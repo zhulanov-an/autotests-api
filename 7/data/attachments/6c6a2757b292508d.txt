@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjUxLjU5OTI4OCIsInVzZXJfaWQiOiI2ODRlN2NkYy0zMmZlLTQzMDEtOTBmNS0zNDA0NjQwNjdiNGQifQ.YfbTmEiTkYA6VwSvfHFiaSM-zV54wQgmSyEyPv0JOKs' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball second short professor process economy song really.","maxScore":65,"minScore":8,"description":"Day human left organization project expect. Education statement key cell. Case TV lead kid charge manage gas.","estimatedTime":"7 weeks","previewFileId":"90ed9194-2dd3-46ef-b27b-2261bbdf0009","createdByUserId":"684e7cdc-32fe-4301-90f5-340464067b4d"}'

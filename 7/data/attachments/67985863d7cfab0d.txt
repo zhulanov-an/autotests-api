@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjQ3LjY4Mjg1MyIsInVzZXJfaWQiOiIyMmYzODNkMi03ZTM2LTQyMjEtYTY2OC1jMDEyODY1ZDExMmYifQ.jM3rJ8ZJJwa0kUHH41tUhFVv-nJWmZXDoq3H30yaanc' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis race appear.","maxScore":95,"minScore":3,"description":"Central race life administration main consumer that think. Law produce serve way.\nOutside either Democrat poor. Bed fire commercial field democratic your whatever.","estimatedTime":"1 weeks","previewFileId":"b3c0036a-b6ea-4e9a-92f9-27194e25ee04","createdByUserId":"22f383d2-7e36-4221-a668-c012865d112f"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d83cc752-5e81-4f0c-9fd8-cfbe13b6fab7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjUwOjUwLjU5NDQ1MSIsInVzZXJfaWQiOiIxZDg3NTZjYS00MWU5LTRmNGQtOGU2Ni0xMmY1YWVlY2IzYmIifQ.-71PS6hNMAxWhYosOTGB6vAmTuxiqtao0oAdaRm_lyA' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President in section agent.","maxScore":90,"minScore":11,"orderIndex":70,"description":"Modern face sort suggest professional.\nPlant simply hear great. Fact on car suffer. Cut evening girl land. Arm image real involve peace better reality again.\nModern policy follow let interest.","estimatedTime":"10 weeks"}'
