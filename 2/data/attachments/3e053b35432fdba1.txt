@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA3Ljk0OTk0NCIsInVzZXJfaWQiOiIxZGM0YzlkZC0yNmNlLTQzZWUtOWU1Zi05MGFhM2M3Nzg4ZjEifQ.YNemZwZ_bVgfN4HNr7N0io8-Gt1kX_CYIiuV8d5HoMM' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe born stay each help word six current.","maxScore":72,"minScore":1,"description":"Nothing quality fish. Late social bill nature shake magazine call. Safe nature available environmental save.","estimatedTime":"6 weeks","previewFileId":"0c81e4c8-2d79-4485-ae4f-821d7b892fcb","createdByUserId":"1dc4c9dd-26ce-43ee-9e5f-90aa3c7788f1"}'

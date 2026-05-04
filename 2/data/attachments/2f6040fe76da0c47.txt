@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA2Ljk3NzQ0MCIsInVzZXJfaWQiOiI1MjhiMDMzMy02YmVmLTRjZWUtYTM1My1jOGMzN2M1YjBlNmUifQ.FwNljXk5yWdfVUaPeQWZdv81VHQHgs_MkWRZ__gEGDI' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Me outside mother clear break role.","maxScore":63,"minScore":10,"description":"Win baby with. Serve teach treat expect once feeling hair.\nTraining write mouth candidate necessary. Pressure audience discussion project material show book sister. Both five author.","estimatedTime":"1 weeks","previewFileId":"1d5b3ff0-053b-4a4c-acd2-5ebc08c438e0","createdByUserId":"528b0333-6bef-4cee-a353-c8c37c5b0e6e"}'

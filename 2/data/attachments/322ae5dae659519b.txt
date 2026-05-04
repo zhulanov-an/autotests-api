@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA4LjI1Nzc1MiIsInVzZXJfaWQiOiI3NDY2NjFkYi1kNDAyLTRiYTEtYjM5Mi02OTA2NTYzYTIzYjQifQ.Cz0xGQ42SyP-C-DAfXh-RfPpZ88NMFknDnjZ2rwTm54' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start tonight pattern near stage.","maxScore":90,"minScore":7,"description":"Recognize compare security. Friend ahead effect trade rich difficult later.","estimatedTime":"1 weeks","previewFileId":"4555bf79-0431-45d9-b372-0ffa9d7dc6f1","createdByUserId":"746661db-d402-4ba1-b392-6906563a23b4"}'

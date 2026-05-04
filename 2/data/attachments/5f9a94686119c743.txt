@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA5LjU4MDczOSIsInVzZXJfaWQiOiIyNTBkZTUxYi03ZTBhLTQzM2MtYWIyNS1hN2U0MGU4MjI0M2EifQ.Mi8hK0hkZzN96sDRRjQtV5la3pLvvXQPbP0x6KaW8us' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice foreign as forward.","maxScore":57,"minScore":30,"description":"If despite go trouble trade answer. Continue expert note threat wide thing behind paper.\nCongress attention stay tough. Conference message learn care. Shake different appear treat.","estimatedTime":"7 weeks","previewFileId":"fa4f1b66-54c1-48e3-9861-320cc2f73b99","createdByUserId":"250de51b-7e0a-433c-ab25-a7e40e82243a"}'

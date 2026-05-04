@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA1LjMyODI4NCIsInVzZXJfaWQiOiI4YmQ2YWI5MS1lOGMwLTRjZWEtYmI0MC03ZTA1ZTY0NWVmYjQifQ.1wt_W9hdnDicsicpkoNo6ujFx1M1o3-KxpsU96cotsY' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reach seven adult total rather.","maxScore":98,"minScore":13,"description":"Bill product him kid morning but. Possible song social nor number song.\nInstead store box bad type. Any movie party point box.","estimatedTime":"8 weeks","previewFileId":"d12a90b8-a177-4bbd-bd12-5ce6cd74a097","createdByUserId":"8bd6ab91-e8c0-4cea-bb40-7e05e645efb4"}'

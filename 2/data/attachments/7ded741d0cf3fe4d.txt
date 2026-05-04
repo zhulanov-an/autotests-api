@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA5LjI3MjQ1MyIsInVzZXJfaWQiOiIyZjZjOWM2ZC01Y2M3LTQxZTYtYmY1MC03OTNlNDQyZjk1ODYifQ.5Y0Nef728yExTAsuKIy-eDOD2uho48dp1nZxTEtq0rw' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy measure resource five.","maxScore":93,"minScore":11,"description":"Program hospital source treat. Open explain rise effect purpose he part.","estimatedTime":"5 weeks","previewFileId":"2d0e5c01-deba-411b-a3b4-7c9cd33301a4","createdByUserId":"2f6c9c6d-5cc7-41e6-bf50-793e442f9586"}'

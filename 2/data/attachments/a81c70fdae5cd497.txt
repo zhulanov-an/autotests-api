@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Follow central heart morning.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 3a7a885b-cbcc-4e82-beab-1be326021f06
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Send threat hundred star. American clearly majority often.
+Whatever by trade quickly. Million likely population beat central card art. Follow quickly street near few tough common.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

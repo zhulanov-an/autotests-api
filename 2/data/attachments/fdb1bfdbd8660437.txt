@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/644e5588-06e5-47d3-aa54-6ecf7184d0ec' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA1LjMyODI4NCIsInVzZXJfaWQiOiI4YmQ2YWI5MS1lOGMwLTRjZWEtYmI0MC03ZTA1ZTY0NWVmYjQifQ.1wt_W9hdnDicsicpkoNo6ujFx1M1o3-KxpsU96cotsY' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop choice fear news race since different time.","maxScore":92,"minScore":20,"description":"This create behind available even career. Daughter either leave wish beautiful after support.\nAbove movie personal hit exist. Attack college sister.","estimatedTime":"5 weeks"}'

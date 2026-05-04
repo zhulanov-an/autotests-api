@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjA2LjMyNTA1NCIsInVzZXJfaWQiOiI1MTJlNWY0NC1iODQzLTQ0NjYtOWQ4YS1mNjdjMTRhY2RkMDAifQ.fftDmmkchT6r3ifhbuoDlV1Uz64TqeIqqFhmz7qepKU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw indicate young nor.","maxScore":89,"minScore":28,"description":"Feeling little easy happy rate wish.\nBoard know course majority better agree mission. Executive exactly bed. Trip you plant present impact property.","estimatedTime":"10 weeks","previewFileId":"59ac9391-9c27-40dd-933c-2ed508cb4366","createdByUserId":"512e5f44-b843-4466-9d8a-f67c14acdd00"}'

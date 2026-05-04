@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE1OjI3OjEwLjYwOTQzNiIsInVzZXJfaWQiOiI5NzY3ZDgyOS05NGMwLTRjMzEtYTZlYi03MmNmOThjOGI2Y2UifQ.ePILIcnOLYNHRDnyrTyh95Att52DG2VZo1vXgyAfV3w' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy light stock under under practice paper.","maxScore":81,"minScore":24,"description":"Level produce put public you pay. Show determine level relationship sign leave group.\nReality cultural reality song compare push. News somebody name onto have.","estimatedTime":"4 weeks","previewFileId":"db3f8c94-a621-48c2-b95b-2c687c7beda6","createdByUserId":"9767d829-94c0-4c31-a6eb-72cf98c8b6ce"}'
