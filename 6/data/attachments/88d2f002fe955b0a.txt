@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE3Ljc5NzQyMiIsInVzZXJfaWQiOiI0NmVhMTQ4My05M2VkLTQ2ZjEtYmE1Yy1lN2M2ZGE0NjJkYTMifQ.cyJKyqVeZa4Ej7PRh5usWon--gSt5KjYzi2DA9Q6Hq4' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Former military vote.","courseId":"a020cc47-d277-484e-a5c3-574687e918d3","maxScore":67,"minScore":10,"orderIndex":6,"description":"Body most month might more. Thought us beautiful speak beat rise hit. Serious box network data current society since.\nUpon shoulder but travel himself. Treat third include.","estimatedTime":"1 weeks"}'

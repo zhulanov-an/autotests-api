@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE2LjQ3NTY0MSIsInVzZXJfaWQiOiI1YjdmODE0My1lMmUxLTRjNTktYTc5Ny0xNjg5ZWIwNjBlYzIifQ.bk0n-5iqP4biobkuySymmrSR64M_Rdz5o6xwhPzFyes' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional visit brother six.","maxScore":80,"minScore":1,"description":"Mr animal movement fall yes catch none there. In medical do expect fall approach leave.\nLeast meet size discuss cause. Over wish above southern Mr throw last.","estimatedTime":"1 weeks","previewFileId":"12f8f658-add2-446b-995e-473ef501cc0a","createdByUserId":"5b7f8143-e2e1-4c59-a797-1689eb060ec2"}'

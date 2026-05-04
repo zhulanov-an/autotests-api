@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE3Ljc5NzQyMiIsInVzZXJfaWQiOiI0NmVhMTQ4My05M2VkLTQ2ZjEtYmE1Yy1lN2M2ZGE0NjJkYTMifQ.cyJKyqVeZa4Ej7PRh5usWon--gSt5KjYzi2DA9Q6Hq4' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe everybody glass pick free identify lawyer.","maxScore":57,"minScore":8,"description":"Positive experience television would team. Party author open forget doctor feeling. Tree both much level scene.\nSubject physical century feel understand strategy suddenly shake. Give standard happy.","estimatedTime":"10 weeks","previewFileId":"cc5107f8-9cfa-4b0f-b7c0-e4f75c19fee2","createdByUserId":"46ea1483-93ed-46f1-ba5c-e7c6da462da3"}'

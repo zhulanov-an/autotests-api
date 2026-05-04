@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE0LjU0MjY0OSIsInVzZXJfaWQiOiIzZDBmYTg2Ni0wNGRmLTQ4OTYtOWU1Yy1hYjNhNmEwMjRjZmMifQ.H3q8WrxxEsVOe8kLAZ9uHF6xQczODiiMbeLBWY_h3L4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word site here necessary yard.","maxScore":61,"minScore":17,"description":"About understand perform personal carry write. Education concern very wrong stock white. Represent bad serious to must father. Happy reach choose voice actually available forget travel.","estimatedTime":"3 weeks","previewFileId":"84f6991c-9839-4b18-b9f1-1cad6e5c5b88","createdByUserId":"3d0fa866-04df-4896-9e5c-ab3a6a024cfc"}'

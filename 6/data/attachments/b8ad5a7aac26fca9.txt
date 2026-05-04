@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE2LjE2NzMwNyIsInVzZXJfaWQiOiI1Y2IwM2I1Zi1hNTlhLTRjODEtOWNmNy04MTE5ZjIwZDEzNDMifQ.YubfwkxKV_-jC-22QyvhpB3uQMl_JvHOAVkZyFwnaVY' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume budget boy music outside.","maxScore":72,"minScore":13,"description":"Glass wait happy wear. Condition white from give suddenly imagine race.","estimatedTime":"9 weeks","previewFileId":"289f5fc0-9992-4aa3-9b4e-3e0998006f2f","createdByUserId":"5cb03b5f-a59a-4c81-9cf7-8119f20d1343"}'

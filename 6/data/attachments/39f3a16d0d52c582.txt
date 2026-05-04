@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE3LjQ5MDEyNCIsInVzZXJfaWQiOiIxNzhlNjNmNi1lMGI2LTQ2ZDgtOGEyZS00NzMxMjMwZTVmOGIifQ.YW4ETK_f71dVX5rmzWcJRhuLy8oGwDPKxVQgNylQb3Y' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Half book enter arm.","maxScore":50,"minScore":2,"description":"Style general scene six vote day. Site suffer military early ten.\nNearly add next best current.\nWife agreement nice election determine. Everything situation lay.","estimatedTime":"1 weeks","previewFileId":"5ccb7fd8-8c58-4368-a78b-713e5d3549a2","createdByUserId":"178e63f6-e0b6-46d8-8a2e-4731230e5f8b"}'

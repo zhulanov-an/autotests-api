@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE1LjE4NDA1NSIsInVzZXJfaWQiOiIwYWY5ZDE1ZS0xNjBkLTQ2YmQtOTQ4Mi0yNWY5ZGFkZDc0NDUifQ.fjYysapX4v2j78h9_m1KK9UyklIjRLjDEdoo0reHfKc' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Radio nothing fine billion.","maxScore":64,"minScore":19,"description":"Often role investment small. Hot another memory left apply analysis. But create much scientist keep right.","estimatedTime":"7 weeks","previewFileId":"9d287bb1-a589-46af-825b-2e1b92ccd564","createdByUserId":"0af9d15e-160d-46bd-9482-25f9dadd7445"}'

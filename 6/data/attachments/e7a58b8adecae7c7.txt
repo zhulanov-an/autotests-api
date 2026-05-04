@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjE4LjgxOTE1MiIsInVzZXJfaWQiOiI4ODIwZDBhOC1hMTFlLTQ4ODktODkxZS01OTIyZDNhY2ZlNWQifQ.H3XZo-zbqy3OkY4pe-NzLWMOuauteVMHX3bRVAl_0HQ' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People score create.","maxScore":64,"minScore":25,"description":"Heart item action. Adult such natural trial take.\nFinish law live less stand red Republican. Stop my where film now case short. Word which out type thousand daughter station.","estimatedTime":"9 weeks","previewFileId":"5f486b3f-e5c2-4fdd-bfb1-49f8d73f5efe","createdByUserId":"8820d0a8-a11e-4889-891e-5922d3acfe5d"}'

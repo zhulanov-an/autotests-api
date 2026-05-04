@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE2OjU0OjEzLjU1ODcxMCIsInVzZXJfaWQiOiI5Y2UwZmE4My0wMDM3LTRiYTMtODdjZC1iYjA4YzNkZDFhMjAifQ.7qVljqobtcfKM7RugJIEOinZz6qK3az9keRghx_0waI' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save station suddenly agreement.","maxScore":83,"minScore":9,"description":"Research follow east research report. Growth pay future. Reality fine couple possible against attorney several.\nLeader production letter firm bring finish movie wide. Attention left learn require.","estimatedTime":"2 weeks","previewFileId":"53041511-9c87-4e56-91cc-c624ea961869","createdByUserId":"9ce0fa83-0037-4ba3-87cd-bb08c3dd1a20"}'
