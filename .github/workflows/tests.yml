@@ -72,7 +72,7 @@ jobs:
       - name: Download allure-results
         uses: actions/download-artifact@v5
         with:
-          name: homework_pre
+          name: upload_allure_results
 
       # 2. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
