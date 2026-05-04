@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjA0LjQwNjYyMyIsInVzZXJfaWQiOiJkZGMyYTA0OS05ZjgzLTRhZTctOWQwNC0wMWY3YmIwMjRjMzkifQ.bzHiFMiMY1gjOPgqUOH1mOrQhDOismH5R7Xe73Z1zs4' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film ground during discuss.","maxScore":98,"minScore":11,"description":"Mr north data hope. Leg least worker Congress consumer begin. Collection purpose fill wall detail.\nSomething goal culture job allow Mrs. Fear clearly when interview.","estimatedTime":"7 weeks","previewFileId":"d33c9f8d-19df-4904-b261-e6e72183a925","createdByUserId":"ddc2a049-9f83-4ae7-9d04-01f7bb024c39"}'

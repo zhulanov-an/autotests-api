@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjA1LjcwOTY5OSIsInVzZXJfaWQiOiIyYjM0ZWQ2Yy0yZmNhLTQ5MTQtODg3MC01ZmI3NzZjOGQ0NWQifQ.8N8PpoqvwCEGfM2rKmMZKLNE67oTdXCYrpsUOK8ksaU' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always serve wonder the media.","courseId":"4597e157-1c2e-4fd0-8c3e-507eb3e053d1","maxScore":71,"minScore":3,"orderIndex":67,"description":"Nearly direction capital really she last resource. Leg parent often war. Life seven admit spend owner.\nDegree talk father laugh have. Various rich through board who. Start life son property relate.","estimatedTime":"6 weeks"}'

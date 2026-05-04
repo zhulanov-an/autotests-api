@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f29ff265-c876-47ed-b13b-ac5312159dc6' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjA1LjA1ODc1OSIsInVzZXJfaWQiOiIzY2Q3YTMyYS04NGViLTQ3ZWItYjRlYy04MTY1MjdlNTFmY2QifQ.nz9K0gt1UQoL5AFpufShrAeQ_lGPlP9xPvzttCuWnrY' \
+  -H 'content-length: 224' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society talk sure price.","maxScore":91,"minScore":27,"orderIndex":6,"description":"Everybody vote century tend. Especially song manager state great visit stuff play. Specific over lead.","estimatedTime":"9 weeks"}'

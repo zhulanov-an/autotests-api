@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjAzLjA2NTA5OCIsInVzZXJfaWQiOiI2YmU0MTM2Ni04ZjcyLTQ2NzAtOWFmZi0xOWY3NDcyYjc0NjMifQ.ZuZHnskFQMM2_Fg46j1Rino7mKvpeKWk8vqA-3z-Q-s' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea evening who throw big real yard take.","maxScore":65,"minScore":16,"description":"Character decade must despite culture science middle. Back determine successful specific center couple kind. Song him cause today thing concern. Trip suffer bring child page director specific.","estimatedTime":"6 weeks","previewFileId":"933ba153-1e3d-4a11-90a2-4a85a050179f","createdByUserId":"6be41366-8f72-4670-9aff-19f7472b7463"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjA1LjcwOTY5OSIsInVzZXJfaWQiOiIyYjM0ZWQ2Yy0yZmNhLTQ5MTQtODg3MC01ZmI3NzZjOGQ0NWQifQ.8N8PpoqvwCEGfM2rKmMZKLNE67oTdXCYrpsUOK8ksaU' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary perform beyond wonder result arrive.","maxScore":59,"minScore":4,"description":"Leg bank dream senior prepare notice allow. Check camera avoid their material before.","estimatedTime":"4 weeks","previewFileId":"55b8e9c9-c057-44fc-b27b-2ad7ba9b45e8","createdByUserId":"2b34ed6c-2fca-4914-8870-5fb776c8d45d"}'

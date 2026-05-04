@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTA0VDE3OjQ3OjA3LjA2MTYyNiIsInVzZXJfaWQiOiJiNjEyMjAwYi0zZmI0LTQyYWEtYjZmZS05ODE4M2FiZTZiNzIifQ.zgUB5p94sM7VBf0NeLI_KGC9E8XzLeZja_krpscVDi0' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century and time us raise.","maxScore":71,"minScore":3,"description":"Subject throw somebody discussion sound organization. This thought first join. Station beautiful teacher suffer fire.","estimatedTime":"3 weeks","previewFileId":"1b633c8b-0544-45fa-9cdc-cd8457647eb3","createdByUserId":"b612200b-3fb4-42aa-b6fe-98183abe6b72"}'
